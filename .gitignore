@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# n8n generated data
+n8n_data/
+
+# Temporary output
+output/
+output/video_temp/
+output/voice_temp/
+output/audio_temp/
+
+# Generated audio
+audio/
+
+# Generated videos
+videos/
+
+# Temporary visuals
+visuals/
+
+# Subtitles generated during processing
+subtitles/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
